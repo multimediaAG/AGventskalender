@@ -9,6 +9,9 @@ import { HomeComponent } from './_pages/home/home.component';
 import { RegisterComponent } from './_pages/register/register.component';
 import { LoginComponent } from './_pages/login/login.component';
 import { RulesComponent } from './_pages/rules/rules.component';
+import { WelcomeComponent } from './_pages/welcome/welcome.component';
+import { ScoresComponent } from './_pages/scores/scores.component';
+import { UsersComponent } from './_pages/users/users.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +21,15 @@ import { RulesComponent } from './_pages/rules/rules.component';
     HomeComponent,
     RegisterComponent,
     LoginComponent,
-    RulesComponent
+    RulesComponent,
+    WelcomeComponent,
+    ScoresComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
